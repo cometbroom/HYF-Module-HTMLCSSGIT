@@ -1,0 +1,6 @@
+1. mv filename .filename // will make your file/folder hidden
+1.To view hidden file/folder: ls -a // -a flag shows all files/folders
+2.mkdir -p ./nested/folder // flag p allows creation of parent directory
+3:
+echo 'first message
+second message' >> filename
