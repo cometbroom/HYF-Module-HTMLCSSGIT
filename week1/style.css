@@ -26,7 +26,7 @@ html {
 /* Background gradient that is fixed to scroll */
 body {
     font-family: "Roboto Condensed", sans-serif;
-    background: linear-gradient(var(--dark-gray), var(--light-gray)) fixed;
+    background: linear-gradient(var(--light-gray), var(--dark-gray)) fixed;
     color: #3f3f3f;
 }
 
@@ -107,7 +107,7 @@ allowing the user to click anywhere on the element.
 
 /* 80% width and centering for design. */
 .page-body {
-    background: linear-gradient(silver, white) fixed;
+    background: linear-gradient(white, silver) fixed;
     width: 80%;
     display: block;
     margin-left: auto;
@@ -118,14 +118,14 @@ allowing the user to click anywhere on the element.
     But in either case, it's an inward shadow and it looks good.
     */
     box-shadow: inset 0px 2px 5px;
-    padding: 5px;
+    padding: 1px;
 }
 
 .page-body h1 {
     margin-top: 75px;
     font-size: 2.5em;
     text-align: center;
-    background-color: rgba(121, 121, 121, 0.4);
+    background-color: rgba(206, 205, 205, 0.4);
     color: yellow;
     text-shadow: 1px 1px 5px black, 5px 5px 10px var(--dark-gray);
 }
@@ -221,7 +221,7 @@ Responsiveness
     margin: 25px 15px;
     padding: 15px 15px;
     border-radius: 20px;
-    background-color: rgb(240, 236, 236);
+    background-color: rgb(255, 255, 255);
     box-shadow: 2px 5px 10px var(--dark-gray), -2px -5px 10px white;
 }
 
