@@ -107,7 +107,7 @@ allowing the user to click anywhere on the element.
 
 /* 80% width and centering for design. */
 .page-body {
-    background: linear-gradient(white, silver) fixed;
+    background-color: white;
     width: 80%;
     display: block;
     margin-left: auto;
