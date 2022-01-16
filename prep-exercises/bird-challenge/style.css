@@ -1,0 +1,72 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.drawing-box {
+    width: 800px;
+    height: 457px;
+    position: relative;
+}
+
+.drawing-box .background {
+    background-color: #2bc3ff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+:root {
+    --bird-radius: 25%;
+    --bird-height: 75%;
+    --bird-width: 40%;
+    --bird-eye-size: 33px;
+    --bird-beaker-width: 110px;
+    --bird-beaker-height: 70px;
+}
+
+.drawing-box .bird {
+    height: var(--bird-height);
+    width: var(--bird-width);
+    top: calc(100% - var(--bird-height));
+    left: 26%;
+    position: absolute;
+    background-color: black;
+    border-top-left-radius: var(--bird-radius);
+    border-top-right-radius: var(--bird-radius);
+}
+
+.drawing-box .bird .eyes {
+    position: absolute;
+    background-color: #ffffff;
+    width: var(--bird-eye-size);
+    height: var(--bird-eye-size);
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+}
+
+.drawing-box .bird .beakerss {
+    width: 0;
+    height: 0;
+    border-left: 60px solid #ffd946;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-right: 0px;
+}
+
+.drawing-box .bird .beaker {
+    background-color: #ffd946;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    width: var(--bird-beaker-width);
+    height: var(--bird-beaker-height);
+    left: 100%;
+    top: 35%;
+    position: absolute;
+    transform: rotate(90deg)
+        translate(
+            0px,
+            calc((var(--bird-beaker-width) - var(--bird-beaker-height)) / 2)
+        );
+}
