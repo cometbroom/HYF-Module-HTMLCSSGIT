@@ -74,10 +74,13 @@ section.body {
 }
 
 section.body .login-img {
+    align-self: center;
     flex: 1;
 }
 .login-img img {
     width: 100%;
+}
+.login-img .bg-effect {
 }
 
 section.body .login-form {
@@ -85,4 +88,72 @@ section.body .login-form {
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+
+.login-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-form form div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.login-form label {
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.login-form input {
+    height: 2.5rem;
+}
+
+.login-form button {
+    background-color: #5131f3;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    width: fit-content;
+    padding: 10px 15px;
+    border: none;
+}
+
+.login-form .disclaimer-login {
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.login-form .external-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.external-login span {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.external-login .ext-login-btns {
+    display: flex;
+    gap: 6px;
+}
+.ext-login-btns i {
+    background-color: white;
+    padding: 15px 20px;
+    font-size: 1.2em;
+    border: solid black 1px;
+    cursor: pointer;
+}
+.fa-linkedin {
+    color: #0e70a1;
+}
+.fa-google {
+    color: #dd4035;
+}
+
+.fa-facebook {
+    color: #3b5998;
 }
