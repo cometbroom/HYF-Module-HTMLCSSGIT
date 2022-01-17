@@ -1,0 +1,110 @@
+section.goal {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-template-rows: fit-content(100%) 1fr;
+}
+
+section.goal h1 {
+    font-size: 2em;
+    padding-bottom: 1rem;
+}
+
+section.goal ul {
+    grid-area: 2/1/3/2;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+section.goal ul li {
+    border-bottom: 1px solid black;
+    padding: 1rem 0rem;
+    cursor: pointer;
+    flex: 1;
+    transition: all 0.3s ease-in;
+}
+
+section.goal ul li p {
+    padding-top: 0.5rem;
+}
+
+section.goal ul li:hover {
+    background-color: white;
+    padding: 2rem 0rem 2rem 10px;
+}
+
+.career-box-wrapper {
+    grid-area: 1/2/3/3;
+    display: grid;
+}
+
+.career-box-wrapper svg,
+.career-box-wrapper .career-boxes {
+    grid-area: 1/1/-1/-1;
+    margin: 0px 10px;
+}
+section.goal .career-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+
+.career-box-wrapper .dot-fill {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.career-boxes .career-card {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px 10px 5px 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.8em;
+}
+
+.career-card .top-info {
+    display: flex;
+    gap: 10px;
+}
+
+.career-card .top-info .pro {
+    background-color: black;
+    color: white;
+    padding: 0px 2px;
+}
+
+.career-card h3 {
+    margin: 10px 0px 5px 0px;
+}
+
+.career-card .specifics {
+    display: flex;
+    flex-direction: row;
+    font-size: 0.78em;
+    gap: 5px;
+}
+
+.career-card .specifics .circles {
+    display: flex;
+    font-size: 0.78em;
+    align-items: center;
+    gap: 3px;
+}
+
+.career-card .empty-space {
+    padding-bottom: 2rem;
+}
+
+.career-card h4 {
+    font-size: 0.9em;
+    background-color: #fff0e5;
+    display: flex;
+    align-self: flex-end;
+    padding: 3px 5px;
+    margin-top: auto;
+}
