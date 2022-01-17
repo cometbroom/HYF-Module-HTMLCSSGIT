@@ -94,10 +94,13 @@ body header {
     border-radius: 5px;
 }
 
-section.body {
-    display: flex;
+section {
     grid-column: 2/-2;
     margin: 48px 0px 0px 0px;
+}
+
+section.body {
+    display: flex;
     gap: 50px;
 }
 
@@ -107,8 +110,6 @@ section.body .login-img {
 }
 .login-img img {
     width: 100%;
-}
-.login-img .bg-effect {
 }
 
 section.body .login-form {
