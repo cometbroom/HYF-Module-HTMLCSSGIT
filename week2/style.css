@@ -47,24 +47,50 @@ body header {
     padding: 0px 8px;
     font-weight: 600;
 }
+.dropdown {
+    display: flex;
+}
 
 .dropdown svg {
     width: 12px;
     height: 12px;
-    margin: 0px 0px 0px 1px;
+    margin: 0px 0px 2px 4px;
+    align-self: flex-end;
 }
 .dropdown span {
+    align-self: center;
 }
 
 .top-nav .right-bar {
     flex: 1;
     display: flex;
     flex-direction: row;
+    gap: 2rem;
     align-items: center;
 }
 
 .right-bar svg {
-    height: 80%;
+    height: 100%;
+    width: 40px;
+    flex: 0 0 auto;
+    padding: 7px 0px;
+    cursor: pointer;
+}
+
+.right-bar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #5131f3;
+    font-weight: 700;
+    height: 100%;
+    width: 100%;
+}
+
+.right-bar :nth-child(n):hover {
+    background-color: #f1e3db;
+    border-radius: 5px;
 }
 
 section.body {
