@@ -97,7 +97,7 @@ body header {
 
 section {
     grid-column: 2/-2;
-    margin: 48px 0px 0px 0px;
+    padding: 5rem 0rem;
 }
 
 section.body {
