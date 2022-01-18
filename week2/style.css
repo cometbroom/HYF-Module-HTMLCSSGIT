@@ -101,6 +101,14 @@ body header {
     width: 100%;
 }
 
+.right-bar i.fa-bars {
+    display: none;
+    font-size: 1.2em;
+    color: rgb(66, 66, 66);
+    cursor: pointer;
+    padding: 7px;
+}
+
 .right-bar :nth-child(n):hover {
     background-color: #f1e3db;
     border-radius: 5px;
@@ -194,6 +202,11 @@ section.body .login-form {
     font-size: 1.2em;
     border: solid black 1px;
     cursor: pointer;
+    filter: brightness(100%);
+    transition: filter 0.2s ease-in;
+}
+.ext-login-btns i:hover {
+    filter: brightness(80%);
 }
 .fa-linkedin {
     color: #0e70a1;

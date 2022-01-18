@@ -117,3 +117,24 @@ section.goal .career-boxes {
     padding: 3px 5px;
     margin-top: auto;
 }
+
+@media screen and (max-width: 1024px) {
+    section.goal {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4, fit-content(100%));
+    }
+
+    section.goal h1 {
+        padding-bottom: 3rem;
+    }
+
+    section.goal .career-box-wrapper {
+        grid-column: 1/-1;
+        grid-row: 2/3;
+    }
+
+    section.goal ul {
+        grid-column: 1/-1;
+        grid-row: 3/4;
+    }
+}
