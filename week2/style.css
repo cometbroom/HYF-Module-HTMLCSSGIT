@@ -18,6 +18,7 @@ body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     background-color: var(--var-bg-1);
+    line-height: 1.5rem;
 }
 
 body header {
