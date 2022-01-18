@@ -106,7 +106,8 @@ body header {
     border-radius: 5px;
 }
 
-section {
+section,
+footer {
     grid-column: 2/-2;
     padding: 5rem 0rem;
 }
