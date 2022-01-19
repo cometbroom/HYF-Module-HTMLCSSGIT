@@ -8,3 +8,9 @@ h1 {
     text-align: center;
     padding: 10px 10px;
 }
+
+section.body img {
+    display: block;
+    max-width: 500px;
+    margin: 0 auto;
+}
