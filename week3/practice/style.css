@@ -14,3 +14,10 @@ section.body img {
     max-width: 500px;
     margin: 0 auto;
 }
+footer {
+    border-top: 1px solid darkgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0px 10px;
+}
