@@ -1,0 +1,12 @@
+$body-color: white;
+
+body {
+    background: linear-gradient(
+        0.25turn,
+        rgb(27, 27, 27),
+        rgb(59, 59, 59),
+        rgb(27, 27, 27)
+    );
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
